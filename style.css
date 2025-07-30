@@ -1,7 +1,7 @@
 html,
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #0d0d0d; /* deep black */
+  background-color: #f5f5f5; /* light gray background */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,15 +15,15 @@ body {
 }
 
 .container {
-  background-color: #1a1a1a; /* dark grey-black */
+  background-color: #ffffff; /* pure white */
   padding: 10px 24px;
   border-radius: 20px;
   width: 490px;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3); /* subtle red glow */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
-  color: #ff4d4d; /* bright red */
+  color: #333333; 
   text-align: center;
   margin-bottom: 0.5em;
   font-family: sans-serif;
@@ -43,12 +43,12 @@ select {
   height: 40px;
   font-size: 1.2em;
   cursor: pointer;
-  background-color: #262626; /* dark dropdown */
-  color: #ff4d4d;
+  background-color: #ffffff;
+  color: #333333;
   margin: 0.2em 0;
   padding: 0 1em;
   border-radius: 10px;
-  border: 2px solid #ff4d4d;
+  border: 2px solid #cccccc;
   outline: none;
 }
 
@@ -58,9 +58,9 @@ input {
   font-size: 1em;
   margin: 0.2em 0;
   border-radius: 10px;
-  border: 2px solid #ff4d4d;
-  background: #1f1f1f;
-  color: #ffcccc;
+  border: 2px solid #cccccc;
+  background: #fafafa;
+  color: #333333;
   outline: none;
   padding: 0 1em;
 }
@@ -73,7 +73,7 @@ input {
 button {
   width: 50%;
   height: 40px;
-  background-color: #ff1a1a; /* red button */
+  background-color: #fc0f0f;
   color: white;
   border-radius: 10px;
   border: none;
@@ -84,5 +84,5 @@ button {
 }
 
 button:hover {
-  background-color: #cc0000;
+  background-color: #388e3c;
 }
